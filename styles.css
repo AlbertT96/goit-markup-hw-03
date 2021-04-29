@@ -42,12 +42,12 @@ img {
 
 .container {
   width: 1200px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.header{
-  width: 1600px;
-}
+/* .header{
+  width: 1200px;
+} */
 .header .container{
   display: flex;
 }
@@ -72,21 +72,22 @@ img {
   align-items: center;
 }
 .pierwsza_czesc_logo,
-.druga_czesc_logo link {
+.druga_czesc_logo{
   display: flex;
-  margin-right: 93px;
-  margin-left: 215px;
+  margin-right: 46px;
+  margin-left: 110px;
   
 }
 
 .nav__l_i {
-  margin-right: 46px;
+  margin-right: 23px;
 }
 .adress_header {
-  margin-left: 371px;
+  margin-left: auto;
+  margin-right: 100px;
 }
 .adress_header_l_i {
-  margin-left: 46px;
+  margin-left: 23px;
 }
 
 /* LOGO */
@@ -101,10 +102,10 @@ img {
 }
 
 .footer {
-  width: 1600px;
+  width: 1200px;
   height: 252px;
-  left: 0px;
-  top: 1628px;
+  /* left: 0px;
+  top: 1628px; */
   background: #2f303a;
 }
 
@@ -118,7 +119,7 @@ img {
 }
 
 .container_hero {
-  width: 1600px;
+  width: 1200px;
   height: 600px;
   background: #2f303a;
   color: var(--third-color);
@@ -178,12 +179,12 @@ img {
 }
 
 .modal-btn {
-  position: absolute;
+  /* position: absolute; */
   cursor: pointer;
   width: 200px;
   height: 50px;
-  left: 700px;
-  top: 430px;
+  /* left: 700px;
+  top: 430px; */
   /* margin: 30px 700px 210px;
   padding: 10px 30px 10px 30px; */
   background: var(--main--color);
@@ -211,8 +212,7 @@ img {
 .naglowek_drugiego_stopnia {
   /* width: 360px;
   height: 42px;
-  left: 624px;
-  top: 969px; */
+   */
   font-weight: bold;
   font-size: 36px;
   line-height: 1, 166;
@@ -228,10 +228,8 @@ img {
 
 .container_small {
   width: 1170px;
-  left: 215px;
-  top: 774px;
-  padding-left: 215px;
-  padding-left: 215px;
+  padding-left: 85px;
+  padding-left: 85px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -315,6 +313,4 @@ top: 1688px;
   cursor: pointer;
   width: 128px;
   height: 38px;
-  left: 576px;
-  top: 174px;
 }
