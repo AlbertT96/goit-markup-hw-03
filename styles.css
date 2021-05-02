@@ -46,7 +46,7 @@ img {
   margin-right: auto;
 }
 
-.header .container{
+.header .container {
   display: flex;
 }
 
@@ -61,15 +61,13 @@ img {
   display: flex;
   align-items: center;
 }
-.pierwsza_czesc_logo{
-display: flex;
+.pierwsza_czesc_logo {
+  display: flex;
   margin-left: 110px;
 }
-.druga_czesc_logo{
+.druga_czesc_logo {
   display: flex;
   margin-right: 46px;
-  
-  
 }
 
 .nav__l_i {
@@ -106,28 +104,26 @@ display: flex;
 .footer {
   background: #2f303a;
 }
-.logo_stopki{
-padding-top: 60px;
-padding-bottom: 20px;
+.logo_stopki {
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 
-.ulozenie_adresu_w_stopce{
- padding-bottom: 9px;
+.ulozenie_adresu_w_stopce {
+  padding-bottom: 9px;
 }
-.ulozenie_adresu_w_stopce_ostatni_element{
+.ulozenie_adresu_w_stopce_ostatni_element {
   padding-bottom: 60px;
 }
 
-
-
-.background_div{
+.background_div {
   background: #2f303a;
 }
 .container_hero {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   color: var(--third-color);
   padding-top: 200px;
   padding-bottom: 200px;
@@ -146,8 +142,7 @@ justify-content: center;
 .nav__l_i:hover,
 .nav__l_i:focus,
 .adress_header_l_i:hover,
-.adress_header_l_i:focus
-.adress_footer_l_i:hover,
+.adress_header_l_i:focus .adress_footer_l_i:hover,
 .adress_footer_l_i:focus {
   color: var(--main--color);
 }
@@ -171,15 +166,14 @@ justify-content: center;
   text-decoration: none;
   color: var(--secondary-color);
 }
-.padding_hero{
+.padding_hero {
   padding-bottom: 30px;
 }
 
 .znacznik_naglowka {
- 
   width: 696px;
   height: 120px;
-  
+
   margin-left: auto;
   margin-right: auto;
   font-weight: 900;
@@ -225,26 +219,41 @@ justify-content: center;
   letter-spacing: 0.03em;
   color: #212121;
   padding-bottom: 50px;
-  /* position: absolute; */
 }
 .potrzeba_białego_tekstu {
   color: var(--third-color);
 }
 
-
-.box{
-width: 370px;
-height: 294px;
-padding-right: 30px;
-padding-left: 30px;
-}
-.box2{
+.box {
+  width: 370px;
+  height: 294px;
   padding-right: 30px;
-padding-left: 30px;
+  padding-left: 30px;
 }
-.our_team_padding{
+.box2 {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.our_team_padding {
   padding-top: 188px;
   padding-bottom: 50px;
+}
+.boxWtxt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 108px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.boxWtxt1 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.boxWtxt2 {
+  padding-bottom: 30px;
 }
 
 .lorem_list {
@@ -255,32 +264,30 @@ padding-left: 30px;
   margin-right: auto;
 }
 
-
 /* koniec dot. tekstu*/
 
 /* background*/
-.lorem_list_bg{
-margin-right: auto;
-margin-left: auto;
-padding-top: 94px;
-padding-bottom: 94px;
+.lorem_list_bg {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
-
-.what_we_do{
+.what_we_do {
   padding-bottom: 50px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.container_our_team_bg{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+.container_our_team_bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.pierwsza_czesc_logo_footer{
+.pierwsza_czesc_logo_footer {
   display: flex;
   font-family: var(--main-color);
   font-weight: 700;
@@ -291,34 +298,34 @@ justify-content: center;
   color: #2196f3;
 }
 
-
-
 /* PORTFOLIO PART */
 .portfolio_btn {
   cursor: pointer;
   width: 128px;
   height: 38px;
+  margin-right: 4px;
+  margin-left: 4px;
 }
 
-.filters{
- padding-top: 94px;
-padding-bottom: 34px;
+.filters {
+  padding-top: 94px;
+  padding-bottom: 34px;
 }
-.wrapping{
+.wrapping {
   display: flex;
   flex-wrap: wrap;
 }
-.margin_l_r_auto{
+.margin_l_r_auto {
   display: flex;
   justify-content: center;
-margin-left: auto;
-margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
-.porftolio_list:nth-child(3n + 1){
+.porftolio_list:nth-child(3n + 1) {
   margin-right: 30px;
   margin-left: 15px;
 }
-.porftolio_list:nth-child(3n){
+.porftolio_list:nth-child(3n) {
   margin-right: 15px;
   margin-left: 30px;
 }
